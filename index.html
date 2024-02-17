@@ -4,6 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The weather</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search"
+            id="cityInput"
+          />
+          <input type="submit" value="search" class="search-btn" />
+        </form>
+      </header>
+      <main>
+        <div id="data">
+          <h1 class="city">Paris</h1>
+          <p class="information">
+            Saturday 11:55, broken clouds <br />
+            Humidity:73%,Wind: 2.06km/h
+          </p>
+        </div>
+        <div class="temp-data">🌧</div>
+        <div class="value">21</div>
+        <div class="metric">°C</div>
+      </main>
+      <footer class="bottom">
+        This project was coded by hosted on Netlify
+        <a href="https://www.linkedin.com/in/zeelshaday-kibru-5a081a243/"
+          >zeelshaday</a
+        >
+        is
+        <a href="https://github.com/yelshaday646">open-sourced on GitHub</a> and
+      </footer>
+    </div>
+  </body>
 </html>

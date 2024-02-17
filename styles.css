@@ -1,0 +1,57 @@
+body {
+  background-color: #f9f7fe;
+}
+.container {
+  background-color: white;
+  max-width: 600px;
+  display: block;
+  margin: 45px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.search {
+  border: none;
+  background-color: #f9f7fe;
+  width: 80%;
+  height: 35px;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 13px;
+}
+.search-btn {
+  border: none;
+  color: white;
+  background-color: #885df1;
+  height: 35px;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 13px;
+}
+
+data {
+  display: flex;
+}
+.city {
+  display: block;
+  font-size: 38px;
+  line-height: 48px;
+}
+.information {
+}
+.temp-data {
+  display: flex;
+  justify-content: right;
+}
+main {
+  margin: 30px 0;
+}
+.bottom {
+  margin: 45px;
+}
+.value {
+  display: flex;
+}
+.metric {
+  display: flex;
+}
