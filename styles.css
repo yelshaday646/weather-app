@@ -28,30 +28,17 @@ body {
   padding: 8px 30px;
   border-radius: 13px;
 }
-
-data {
+.weather-info {
   display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
 }
-.city {
+strong {
+  color: #f65282;
+}
+a {
+  color: #885df1;
+}
+div {
   display: block;
-  font-size: 38px;
-  line-height: 48px;
-}
-.information {
-}
-.temp-data {
-  display: flex;
-  justify-content: right;
-}
-main {
-  margin: 30px 0;
-}
-.bottom {
-  margin: 45px;
-}
-.value {
-  display: flex;
-}
-.metric {
-  display: flex;
 }
